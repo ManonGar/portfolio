@@ -1,86 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400;600&display=swap');
 
 body {
-    background-color: #f0efeb;
-    font-family: 'Open Sans', sans-serif;
-    color: #b5838d;
-    /* line-height: 1px; */
-    text-align: center;
+    background-color: #1E2132;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+#top {
+  margin-top: 32px;
 }
 
 h1 {
-  line-height: 0.3;
-}
-
-h3{
- font-weight: 700;
- color: #6d6875;
-}
-
-p {
-  color: #6d6875;
-  font-size: 15px;
-  font-weight: 300;
-      margin-bottom: 30px;
-}
-
-a {
-  text-decoration: none;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 80px;
+  color: white;
+  line-height: 70px;
+  padding-bottom: 16px;
+} span {
+  color: orange;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1E2132;
+  padding-top: 24px;
+}
+
+.description {
+  margin-bottom: 100px;
+} h3 {
+  font-size: 32px;
+  color: white;
+}
+  p {
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+  }
+
+.navbar-lewagon {
+  justify-content: flex-end;
+  padding-right: 45px;
+  background-color: #1E2132;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  color: white;
+  font-weight: 100;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+  font-weight: 400;
+}
+
+.expertise {
+  text-align: center;
+  background-color: #2c2f46;
+  border-radius: 8px;
+}
+
+.projects {
+  text-align: center;
+  padding-left: 234px;
+  padding-right: 234px;
+  padding-bottom: 80px;
+  background-color: #2c2f46;
+  margin-bottom: 36px;
+  border-radius: 8px;
+}
+
+.card-project {
+  overflow: hidden;
+  padding: 16px 16px;
+  border-radius: 2px;
+}
+
+.card-project > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.works {
+  margin-top: 24px;
+}
+
+#apparat {
+  margin-top: 24px;
+}
+
+/*----------------footer-------------*/
+.footer {
+  background: #51566A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
   color: white;
 }
 
-a:hover{
-  background-color: grey;
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
 }
 
-.btn-pink {
-    /* color: #F6BEAF; */
-    border: 2px solid;
-    background-color: #F6BEAF;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-
-.card-white {
-    background-color: white;
-    border: 1px solid white;
-    margin: 16px 0px;
-    padding: 32px;
-    border: 2px solid white;
-    border-radius: 5px;
-    box-shadow: 5px 5px 3px lightgrey;
-}
-
-#footer {
-  height: 100px;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-i {
-  font-size: 30px;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-  color: lightgrey;
-  height: 200px;
-}
+/*------------responsiveness ------------------------------*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */

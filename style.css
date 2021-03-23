@@ -7,8 +7,8 @@ body {
 }
 
 .main-content {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 116px;
+  margin-right: 116px;
 }
 
 #top {
@@ -35,11 +35,6 @@ h2 {
   margin-bottom: 40px;
 }
 
-/*#name span {
-  color: white;
-}*/
-
-
 .intro {
   display: flex;
   justify-content: space-around;
@@ -65,7 +60,7 @@ h3 {
 
 .navbar-lewagon {
   justify-content: flex-end;
-  padding-right: 80px;
+  padding-right: 150px;
   background-color: #1E2132;
 }
 
@@ -112,9 +107,6 @@ h3 {
 
 .card-project {
   overflow: hidden;
-  /*padding: 16px 24px;*/
-  /*background-color: #2c2f46;*/
-  border-radius: 8px;
 }
 
 #card-title-1 span {
@@ -127,7 +119,7 @@ h3 {
   color: orange;
 }
 
-.card-project > img {
+.card-project img {
   object-fit: cover;
   width: 100%;
 }
@@ -135,6 +127,40 @@ h3 {
 .image {
   margin-top: 16px;
 }
+
+#works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 46px;
+} p {
+  font-size: 16px;
+  margin-top: 16px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+/*.image-easycare:after {
+    content: 'Save time and lives" is the aim of easycare, a web application that makes administrative work easier for midwives.';
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background: #2c2f46cc;
+    opacity: 0;
+    transition: all 0.27s;
+   /* transition: opacity 0.5s ease;
+    /*-webkit-transition: all 1s;*/
+
+}
+
+/*.image-easycare:hover:after {
+    opacity: 1;
+}*/
 
 #works {
   display: grid;

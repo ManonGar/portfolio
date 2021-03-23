@@ -11,14 +11,17 @@
   <div class="navbar navbar-expand-sm navbar-lewagon">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="work" href="#work">Work</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Expertise</a>
+          <a class="nav-link" href="#expertise">Expertise</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -34,7 +37,7 @@
       </div>
     </div>
     <div class="container" id="main">
-      <div class="projects">
+      <div class="projects" id="work">
         <h2>my work</h2>
         <div id="works">
           <div class="card-project">
@@ -42,7 +45,7 @@
               <h4>easycare <span> > bootcamp project</span></h4>
             </div>
             <div class="image">
-              <a href="https://www.easy-care.org/" target="_blank"><img src="images/Easy-care.png" alt="easycare" style="width: 100%;"></a>
+              <a href="https://www.easy-care.org/" target="_blank"><img src="images/Easy-care.png" alt="easycare"></a>
             </div>
             <div class="card-description">
               <p>"Save time and lives" is the aim of easycare, a web application that makes administrative work easier for midwives.</p>
@@ -52,7 +55,7 @@
              <div id="card-title-2">
               <h4>Apparat <span> > bootcamp project</span></h4>
             </div>
-            <div class="image">
+            <div class="image" id="apparat">
               <a href="https://apparat.herokuapp.com/" target="_blank"><img src="images/Apparat.jpeg" alt="apparat" style="width: 100%;"></a>
             </div>
             <div class="card-description">
@@ -93,10 +96,13 @@
           </div>
         </div>
       </div>
+      <div id="about">
+        <h2>about me</h2>
+      </div>
     </div>
   </div>
   <div class="footer">
-    <div class="contact">
+    <div class="contact" id="contact">
       <p>Contact me</p>
     </div>
     <div class="footer-links">
@@ -105,5 +111,6 @@
       <a href="https://www.linkedin.com/in/manongarnier1/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
+  <script src="portfolio.js"></script>
 </body>
 </html>

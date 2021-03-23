@@ -139,6 +139,10 @@ h3 {
   font-weight: 100;
 }
 
+#about {
+  margin-bottom: 80px;
+}
+
 /*.image-easycare:after {
     content: 'Save time and lives" is the aim of easycare, a web application that makes administrative work easier for midwives.';
     color: white;

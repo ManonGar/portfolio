@@ -44,17 +44,18 @@ h1 {
    position: relative;
    overflow: hidden;
 }
-.timeline-container:before { /*This is the line down the middle*/
+.timeline-container:before {
    content: '';
    position: absolute;
    top: 0;
    left: 50%;
    margin-left: -1px;
-   width: 2px;
+   width: 1px;
    height: 100%;
    background: #CCD1D9;
    z-index: 1
 }
+
 .timeline-block {
    width: -webkit-calc(50% + 8px);
    width: -moz-calc(50% + 8px);
@@ -83,9 +84,10 @@ h1 {
    width: 16px;
    height: 16px;
    border-radius: 50%;
-   border: 2px solid #F5F7FA;
+   border: 1px solid #F5F7FA;
    margin-top: 10px;
-   z-index: 9999
+   z-index: 9999;
+   background: #F5F7FA;
 }
 
 .timeline-content {
@@ -130,7 +132,6 @@ h1 {
 }
 
 #ruby, #js, #html, #css, #bootstrap, #rails, #postgre, #git, #github, #heroku {
-  margin-bottom: 32px;
   margin-right: 8px;
   text-align: center;
   background-color: #16222a85;
@@ -188,6 +189,10 @@ h1 {
 }
 .footer-links a:hover {
   opacity: 1;
+}
+
+#back, #front, #techno {
+  margin-top: 24px;
 }
 
 /*-------------skilss-------------------*/

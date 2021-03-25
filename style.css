@@ -133,7 +133,7 @@ h1 {
 #ruby, #js, #html, #css, #bootstrap, #rails, #postgre, #git, #github, #heroku {
   margin-right: 8px;
   text-align: center;
-  background-color: #16222a85;
+  background-color: #1a282f94;
   padding: 8px 18px;
   width: max-content;
   border-radius: 4px;
@@ -146,19 +146,31 @@ h1 {
 }
 
 .image .content-overlay {
-  content:"see website";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
-  color: #FFF;
-  background: rgb(234 233 175 / 60%);
+  display: flex;
+  background-color: #7548258f;
+  justify-content: center;
+  align-items: center;
 }
 
-.image:hover .content-overlay {
-    background: rgb(56 55 52 / 63%);
+.image .content-overlay p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#easycare:hover .content-overlay {
+    background: #4b7cc187;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#apparat:hover .content-overlay {
+    background: #75482599;
     opacity: 1;
     transition: opacity 0.3s ease;
 }

@@ -146,6 +146,7 @@ h1 {
 }
 
 .image .content-overlay {
+  content:"see website";
   position: absolute;
   top: 0;
   left: 0;
@@ -159,18 +160,20 @@ h1 {
 .image:hover .content-overlay {
     background: rgb(56 55 52 / 63%);
     opacity: 1;
-    transition: all 0.4s ease-in-out 0s;
+    transition: opacity 0.3s ease;
 }
 
 #easycare img {
   width: 100%;
   box-shadow: 0 0 15px rgb(0 0 0 / 46%);
+  border-radius: 3px;
 }
 
 #apparat img {
   position: relative;
   width: 100%;
   box-shadow: 0 0 15px rgb(0 0 0 / 46%);
+  border-radius: 3px;
 }
 
 .card-project {
@@ -190,7 +193,7 @@ h1 {
 
 .footer-links a {
   color: white;
-  opacity: 0.8;
+  opacity: 0.7;
   text-decoration: none;
   font-size: 24px;
 }

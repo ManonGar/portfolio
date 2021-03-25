@@ -127,7 +127,7 @@ h1 {
 /*----------projects---------------*/
 
 #apparat {
-  margin-left: -20px;
+  margin-left: -24px;
 }
 
 #ruby, #js, #html, #css, #bootstrap, #rails, #postgre, #git, #github, #heroku {
@@ -142,19 +142,33 @@ h1 {
 .image {
   max-width: 480px;
   object-fit: cover;
+  position: relative;
+}
+
+.image .content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  color: #FFF;
+  background: rgb(234 233 175 / 60%);
+}
+
+.image:hover .content-overlay {
+    background: rgb(56 55 52 / 63%);
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
 }
 
 #easycare img {
-  object-fit: cover;
   width: 100%;
   box-shadow: 0 0 15px rgb(0 0 0 / 46%);
-  background-image: linear-gradient(
-65deg
-,rgba(16,9,27,.8),transparent 50%);
 }
 
 #apparat img {
-  object-fit: cover;
+  position: relative;
   width: 100%;
   box-shadow: 0 0 15px rgb(0 0 0 / 46%);
 }

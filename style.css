@@ -38,7 +38,7 @@ h1 {
 
 .timeline-container {
    width: 80%;
-   padding: 50px 0;
+   padding-top: 40px;
    margin: 50px auto;
    position: relative;
    overflow: hidden;

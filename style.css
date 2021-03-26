@@ -126,10 +126,6 @@ h1 {
 
 /*----------projects---------------*/
 
-#apparat {
-  margin-left: -24px;
-}
-
 #ruby, #js, #html, #css, #bootstrap, #rails, #postgre, #git, #github, #heroku {
   margin-right: 8px;
   text-align: center;
@@ -137,6 +133,10 @@ h1 {
   padding: 8px 18px;
   width: max-content;
   border-radius: 4px;
+}
+
+#marker-hidden {
+  visibility: hidden;
 }
 
 .image {

@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 p {
@@ -13,6 +14,7 @@ p {
 
 h1 {
   font-size: 46px;
+  font-weight: 300;
 }
 
 h2 {
@@ -20,13 +22,8 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
-}
-
-.main-content {
-  margin: 100px 60px;
-  text-align: center;
-  color: #e8725e;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 /*---------------------------top-page--------------------------------*/
@@ -34,7 +31,7 @@ h3 {
 .presentation {
   background-color: #F09080;
   color: #ffffff;
-  padding: 40px 200px;
+  padding: 40px 150px;
 }
 
 .topbar span {
@@ -42,10 +39,11 @@ h3 {
 }
 
 .topbar {
-  text-align: center;
-  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
   background-color: #F09080;
   color: #ffffff;
+  padding-bottom: 100px;
 }
 
 .info {
@@ -60,9 +58,14 @@ h3 {
 }
 
 /*---------------Work---------------------------*/
+.main-content {
+  margin: 100px 60px;
+  text-align: center;
+  color: #a53737;
+}
 
 .project-card {
-  max-width: 800px;
+  max-width: 700px;
   min-width: 300px;
   position: relative;
   box-shadow: 0 16px 64px 0 rgb(0 0 0 / 12%), 0 0 0 1px rgb(0 0 0 / 1%);
@@ -151,7 +154,7 @@ h3 {
     grid-template-columns: 1fr;
   }
   .presentation {
-    padding: 40px 20px;
+    padding: 40px 30px;
   }
   .icons {
     padding: 0 50px;
@@ -159,9 +162,6 @@ h3 {
 }
 
 @media(min-width: 1200px) {
-  .presentation {
-    padding: 40px 300px;
-  }
   .icons {
     padding: 0 300px;
   }

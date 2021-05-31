@@ -39,29 +39,36 @@ h3 {
 }
 
 .topbar {
-  display: flex;
-  justify-content: space-between;
   background-color: #F09080;
   color: #ffffff;
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .info {
-  font-weight: 300;
-  font-size: 32px;
+  text-align: end;
+  align-self: center;
+}
+
+.info p, span {
+  font-size: 64px;
 }
 
 .text {
+  align-self: center;
+}
+
+.about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 100px;
+  grid-gap: 80px;
 }
 
 /*---------------Work---------------------------*/
 .main-content {
   margin: 100px 60px;
   text-align: center;
-  color: #a53737;
+  color: #3e3c3c;
 }
 
 .project-card {
